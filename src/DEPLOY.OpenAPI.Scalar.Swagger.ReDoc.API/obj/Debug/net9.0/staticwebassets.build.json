@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "fDah1Nl68jYw289KRXNk6/7h9YafQksyZxvqssSSX2I=",
+  "Source": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API",
+  "BasePath": "_content/DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

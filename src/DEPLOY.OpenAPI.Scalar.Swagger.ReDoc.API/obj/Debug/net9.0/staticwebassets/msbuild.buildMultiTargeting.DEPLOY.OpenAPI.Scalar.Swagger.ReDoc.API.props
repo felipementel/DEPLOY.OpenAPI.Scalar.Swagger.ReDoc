@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.props" />
+</Project>
