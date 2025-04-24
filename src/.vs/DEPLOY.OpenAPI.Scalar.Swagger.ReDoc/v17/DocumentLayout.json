@@ -7,28 +7,24 @@
       "RelativeMoniker": "D:0:0:{40C45CAE-14CD-4C73-83CB-ED1BB2DEB1F8}|DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj|solutionrelative:deploy.openapi.scalar.swagger.redoc.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40C45CAE-14CD-4C73-83CB-ED1BB2DEB1F8}|DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj|c:\\proj\\deploy\\_mantidos\\deploy.openapi.scalar.swagger.redoc\\src\\deploy.openapi.scalar.swagger.redoc.api\\endpoints\\v2\\deploy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40C45CAE-14CD-4C73-83CB-ED1BB2DEB1F8}|DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj|solutionrelative:deploy.openapi.scalar.swagger.redoc.api\\endpoints\\v2\\deploy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40C45CAE-14CD-4C73-83CB-ED1BB2DEB1F8}|DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj|c:\\proj\\deploy\\_mantidos\\deploy.openapi.scalar.swagger.redoc\\src\\deploy.openapi.scalar.swagger.redoc.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{40C45CAE-14CD-4C73-83CB-ED1BB2DEB1F8}|DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj|solutionrelative:deploy.openapi.scalar.swagger.redoc.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40C45CAE-14CD-4C73-83CB-ED1BB2DEB1F8}|DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj|c:\\proj\\deploy\\_mantidos\\deploy.openapi.scalar.swagger.redoc\\src\\deploy.openapi.scalar.swagger.redoc.api\\deploy.openapi.scalar.swagger.redoc.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{40C45CAE-14CD-4C73-83CB-ED1BB2DEB1F8}|DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj|solutionrelative:deploy.openapi.scalar.swagger.redoc.api\\deploy.openapi.scalar.swagger.redoc.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40C45CAE-14CD-4C73-83CB-ED1BB2DEB1F8}|DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj|c:\\proj\\deploy\\_mantidos\\deploy.openapi.scalar.swagger.redoc\\src\\deploy.openapi.scalar.swagger.redoc.api\\deploy.openapi.scalar.swagger.redoc.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{40C45CAE-14CD-4C73-83CB-ED1BB2DEB1F8}|DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj|solutionrelative:deploy.openapi.scalar.swagger.redoc.api\\deploy.openapi.scalar.swagger.redoc.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{40C45CAE-14CD-4C73-83CB-ED1BB2DEB1F8}|DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj|c:\\proj\\deploy\\_mantidos\\deploy.openapi.scalar.swagger.redoc\\src\\deploy.openapi.scalar.swagger.redoc.api\\endpoints\\v2\\authorsendpoint.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{40C45CAE-14CD-4C73-83CB-ED1BB2DEB1F8}|DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj|solutionrelative:deploy.openapi.scalar.swagger.redoc.api\\endpoints\\v2\\authorsendpoint.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{40C45CAE-14CD-4C73-83CB-ED1BB2DEB1F8}|DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj|c:\\proj\\deploy\\_mantidos\\deploy.openapi.scalar.swagger.redoc\\src\\deploy.openapi.scalar.swagger.redoc.api\\model\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40C45CAE-14CD-4C73-83CB-ED1BB2DEB1F8}|DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj|solutionrelative:deploy.openapi.scalar.swagger.redoc.api\\model\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{40C45CAE-14CD-4C73-83CB-ED1BB2DEB1F8}|DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj|c:\\proj\\deploy\\_mantidos\\deploy.openapi.scalar.swagger.redoc\\src\\deploy.openapi.scalar.swagger.redoc.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{40C45CAE-14CD-4C73-83CB-ED1BB2DEB1F8}|DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj|solutionrelative:deploy.openapi.scalar.swagger.redoc.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{40C45CAE-14CD-4C73-83CB-ED1BB2DEB1F8}|DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj|c:\\proj\\deploy\\_mantidos\\deploy.openapi.scalar.swagger.redoc\\src\\deploy.openapi.scalar.swagger.redoc.api\\model\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40C45CAE-14CD-4C73-83CB-ED1BB2DEB1F8}|DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj|solutionrelative:deploy.openapi.scalar.swagger.redoc.api\\model\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C45CAE-14CD-4C73-83CB-ED1BB2DEB1F8}|DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj|c:\\proj\\deploy\\_mantidos\\deploy.openapi.scalar.swagger.redoc\\src\\deploy.openapi.scalar.swagger.redoc.api\\deploy.openapi.scalar.swagger.redoc.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{40C45CAE-14CD-4C73-83CB-ED1BB2DEB1F8}|DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj|solutionrelative:deploy.openapi.scalar.swagger.redoc.api\\deploy.openapi.scalar.swagger.redoc.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{40C45CAE-14CD-4C73-83CB-ED1BB2DEB1F8}|DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj|c:\\proj\\deploy\\_mantidos\\deploy.openapi.scalar.swagger.redoc\\src\\deploy.openapi.scalar.swagger.redoc.api\\database\\deploycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -59,19 +55,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DEPLOY.cs",
-              "DocumentMoniker": "C:\\Proj\\DEPLOY\\_Mantidos\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc\\src\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Endpoints\\v2\\DEPLOY.cs",
-              "RelativeDocumentMoniker": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Endpoints\\v2\\DEPLOY.cs",
-              "ToolTip": "C:\\Proj\\DEPLOY\\_Mantidos\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc\\src\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Endpoints\\v2\\DEPLOY.cs",
-              "RelativeToolTip": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Endpoints\\v2\\DEPLOY.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Title": "AuthorsEndpoint.cs",
+              "DocumentMoniker": "C:\\Proj\\DEPLOY\\_Mantidos\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc\\src\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Endpoints\\v2\\AuthorsEndpoint.cs",
+              "RelativeDocumentMoniker": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Endpoints\\v2\\AuthorsEndpoint.cs",
+              "ToolTip": "C:\\Proj\\DEPLOY\\_Mantidos\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc\\src\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Endpoints\\v2\\AuthorsEndpoint.cs",
+              "RelativeToolTip": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Endpoints\\v2\\AuthorsEndpoint.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwAsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T01:03:05.882Z",
+              "WhenOpened": "2025-04-22T18:39:08.705Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API",
               "DocumentMoniker": "C:\\Proj\\DEPLOY\\_Mantidos\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc\\src\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj",
               "RelativeDocumentMoniker": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj",
@@ -83,59 +79,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj",
-              "DocumentMoniker": "C:\\Proj\\DEPLOY\\_Mantidos\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc\\src\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj",
-              "RelativeDocumentMoniker": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj",
-              "ToolTip": "C:\\Proj\\DEPLOY\\_Mantidos\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc\\src\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj",
-              "RelativeToolTip": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-17T11:56:30.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Books.cs",
               "DocumentMoniker": "C:\\Proj\\DEPLOY\\_Mantidos\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc\\src\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Model\\Books.cs",
               "RelativeDocumentMoniker": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Model\\Books.cs",
               "ToolTip": "C:\\Proj\\DEPLOY\\_Mantidos\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc\\src\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Model\\Books.cs",
               "RelativeToolTip": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Model\\Books.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAmwAQAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T19:21:32.918Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Proj\\DEPLOY\\_Mantidos\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc\\src\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Properties\\launchSettings.json",
               "ToolTip": "C:\\Proj\\DEPLOY\\_Mantidos\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc\\src\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Properties\\launchSettings.json",
               "RelativeToolTip": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-15T18:59:18.571Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Author.cs",
               "DocumentMoniker": "C:\\Proj\\DEPLOY\\_Mantidos\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc\\src\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Model\\Author.cs",
               "RelativeDocumentMoniker": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Model\\Author.cs",
               "ToolTip": "C:\\Proj\\DEPLOY\\_Mantidos\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc\\src\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Model\\Author.cs",
               "RelativeToolTip": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Model\\Author.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAA+wAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T18:31:52.699Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "DEPLOYContext.cs",
               "DocumentMoniker": "C:\\Proj\\DEPLOY\\_Mantidos\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc\\src\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Database\\DEPLOYContext.cs",
               "RelativeDocumentMoniker": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Database\\DEPLOYContext.cs",
@@ -154,7 +137,7 @@
               "RelativeDocumentMoniker": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Program.cs",
               "ToolTip": "C:\\Proj\\DEPLOY\\_Mantidos\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc\\src\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Program.cs",
               "RelativeToolTip": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Program.cs",
-              "ViewState": "AgIAALEAAAAAAAAAAAAAALoAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAFECAAAAAAAAAAAAAF0CAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T17:39:17.141Z",
               "EditorCaption": ""

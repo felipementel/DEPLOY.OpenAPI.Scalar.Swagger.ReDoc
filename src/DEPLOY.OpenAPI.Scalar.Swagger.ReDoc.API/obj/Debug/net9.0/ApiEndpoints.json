@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_11",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_13",
     "RelativePath": "api/v1/authors/author",
     "HttpMethod": "POST",
     "IsController": false,
@@ -29,7 +29,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_13",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_15",
     "RelativePath": "api/v1/authors/author",
     "HttpMethod": "GET",
     "IsController": false,
@@ -51,7 +51,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_15",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_17",
     "RelativePath": "api/v1/authors/author/{id:guid}",
     "HttpMethod": "GET",
     "IsController": false,
@@ -81,32 +81,6 @@
     "ContainingType": "Program\u002B\u003C\u003Ec",
     "Method": "\u003C\u003CMain\u003E$\u003Eb__0_19",
     "RelativePath": "api/v1/authors/author/{id:guid}",
-    "HttpMethod": "DELETE",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 204
-      }
-    ],
-    "Tags": [
-      "Authors"
-    ],
-    "Summary": "Delete author by id"
-  },
-  {
-    "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_17",
-    "RelativePath": "api/v1/authors/author/{id}",
     "HttpMethod": "PUT",
     "IsController": false,
     "Order": 0,
@@ -137,6 +111,32 @@
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
     "Method": "\u003C\u003CMain\u003E$\u003Eb__0_21",
+    "RelativePath": "api/v1/authors/author/{id:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "Tags": [
+      "Authors"
+    ],
+    "Summary": "Delete author by id"
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_23",
     "RelativePath": "api/v1/books/books",
     "HttpMethod": "POST",
     "IsController": false,
@@ -164,7 +164,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_23",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_25",
     "RelativePath": "api/v1/books/books",
     "HttpMethod": "GET",
     "IsController": false,
@@ -186,8 +186,8 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_25",
-    "RelativePath": "api/v1/books/books/{id}",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_27",
+    "RelativePath": "api/v1/books/books/{id:guid}",
     "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,
@@ -214,8 +214,8 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_27",
-    "RelativePath": "api/v1/books/books/{id}",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_29",
+    "RelativePath": "api/v1/books/books/{id:guid}",
     "HttpMethod": "PUT",
     "IsController": false,
     "Order": 0,
@@ -245,8 +245,8 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_29",
-    "RelativePath": "api/v1/books/books/{id}",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_31",
+    "RelativePath": "api/v1/books/books/{id:guid}",
     "HttpMethod": "DELETE",
     "IsController": false,
     "Order": 0,
@@ -268,5 +268,33 @@
       "Books"
     ],
     "Summary": "Delete book by id"
+  },
+  {
+    "ContainingType": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.Endpoints.v2.AuthorsEndpoint\u002B\u003C\u003Ec",
+    "Method": "\u003CMapAuthorsEndpointsV2\u003Eb__0_0",
+    "RelativePath": "api/v2/authors/author",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "author",
+        "Type": "Author",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Author",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      }
+    ],
+    "Tags": [
+      "Authors"
+    ],
+    "Summary": "Create a new author"
   }
 ]

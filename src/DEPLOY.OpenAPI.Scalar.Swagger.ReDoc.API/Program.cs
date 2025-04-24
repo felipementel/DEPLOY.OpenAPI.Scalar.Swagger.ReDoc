@@ -1,6 +1,11 @@
 using DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.Endpoints.v2;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.OpenApi;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -36,6 +41,46 @@ builder.Services.AddOpenApi("v1", options =>
             Description = "Canal DEPLOY - OpenAPISpec Tips",
             Url = new Uri("https://www.youtube.com/@D.E.P.L.O.Y")
         };
+
+        // Inline enum schemas
+        options.CreateSchemaReferenceId = (type) => type.Type.IsEnum ? null : OpenApiOptions.CreateDefaultSchemaReferenceId(type);
+
+        return Task.CompletedTask;
+    });
+
+    options.AddOperationTransformer((operation, context, cancellationToken) =>
+    {
+        if (context.Description.ActionDescriptor.EndpointMetadata.OfType<IAuthorizeData>().Any())
+        {
+            operation.Security = new List<Microsoft.OpenApi.Models.OpenApiSecurityRequirement>
+            {
+                new Microsoft.OpenApi.Models.OpenApiSecurityRequirement
+                {
+                    [new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+                    {
+                        Reference = new Microsoft.OpenApi.Models.OpenApiReference
+                        {
+                            Type = Microsoft.OpenApi.Models.ReferenceType.Schema,
+                            Id = "Bearer"
+                        }
+                    }] = new string[] { }
+                }
+            };
+        }
+
+        options.AddDocumentTransformer<OpenApiSecuritySchemeTransformer>();
+
+        return Task.CompletedTask;
+    });
+
+    options.AddSchemaTransformer((schema, context, cancellationToken) =>
+    {
+        if (context.JsonTypeInfo.Type == typeof(decimal))
+        {
+            // default schema for decimal is just type: number.  Add format: decimal
+            //https://spec.openapis.org/oas/v3.1.1.html#data-type-format
+            schema.Format = "decimal";
+        }
         return Task.CompletedTask;
     });
 });
@@ -91,6 +136,31 @@ builder.Services.AddSwaggerGen(options =>
             Title = "Canal DEPLOY - Temporal Tables - V2",
             Version = "v2"
         });
+
+    options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
+    {
+        Name = "Authorization",
+        Type = SecuritySchemeType.ApiKey,
+        Scheme = "Bearer",
+        BearerFormat = "JWT",
+        In = ParameterLocation.Header,
+        Description = "Auth Canal DEPLOY",
+    });
+
+    options.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            new string[] { }
+        }
+    });
 });
 
 builder.Services.AddEntityFrameworkInMemoryDatabase()
@@ -102,6 +172,26 @@ builder.Services.AddEntityFrameworkInMemoryDatabase()
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddEndpointsApiExplorer();
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(o =>
+{
+    o.RequireHttpsMetadata = true;
+    o.SaveToken = true;
+    o.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuerSigningKey = true,
+        //IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(builder.Configuration["Jwt:Key"])),
+        ValidateIssuer = false,
+        ValidateAudience = false
+    };
+});
+
+builder.Services.AddAuthorization();
 
 var app = builder.Build();
 
@@ -117,6 +207,12 @@ if (app.Environment.IsDevelopment())
         options.WithSidebar(true);
         options.WithTestRequestButton(true);
         options.WithLayout(ScalarLayout.Modern);
+
+        options.Authentication =
+        new ScalarAuthenticationOptions
+        {
+            PreferredSecurityScheme = "Bearer"
+        };
     });
 
     //swagger
@@ -140,6 +236,7 @@ app.UseStaticFiles(new StaticFileOptions
     FileProvider = new PhysicalFileProvider(
         Path.Combine(builder.Environment.ContentRootPath, "img")),
     RequestPath = "/img"
+
 });
 
 //redoc
@@ -148,7 +245,7 @@ app.UseReDoc(options =>
     options.DocumentTitle = "REDOC API Documentation";
     options.SpecUrl("/openapi/v1.json");
     options.RoutePrefix = "redocv1";
-    options.HeadContent = @"<img src='/img/logo-deploy.png' width=260px height=100px alt='Canal DEPLOY' />";
+    options.HeadContent = @"<img src='/img/logo-deploy.png' width=130px height=50px alt='Canal DEPLOY' />";
 });
 
 app.UseReDoc(options =>
@@ -156,7 +253,7 @@ app.UseReDoc(options =>
     options.DocumentTitle = "REDOC API Documentation";
     options.SpecUrl("/openapi/v2.json");
     options.RoutePrefix = "redocv2";
-    options.HeadContent = @"<img src='/img/logo-deploy.png' width=260px height=100px alt='Canal DEPLOY' />";
+    options.HeadContent = @"<img src='/img/logo-deploy.png' width=130px height=50px alt='Canal DEPLOY' />";
 });
 
 // ====
@@ -170,7 +267,8 @@ var apiVersionSetAuthors_V1 = app
 
 var Authors_V1 = app
     .MapGroup("/api/v{version:apiVersion}/authors")
-    .WithApiVersionSet(apiVersionSetAuthors_V1);
+    .WithApiVersionSet(apiVersionSetAuthors_V1)
+    .RequireAuthorization();
 
 //Post Author
 Authors_V1
@@ -475,6 +573,50 @@ Books_V1
     })
     .WithSummary("Delete book by id");
 
-app.MapDEPLOYEndpointsV2();
+app.MapAuthorsEndpointsV2();
 
 await app.RunAsync();
+
+
+public class OpenApiSecuritySchemeTransformer
+    : IOpenApiDocumentTransformer
+{
+    public Task TransformAsync(OpenApiDocument document, OpenApiDocumentTransformerContext context,
+        CancellationToken cancellationToken)
+    {
+        var securitySchema =
+            new OpenApiSecurityScheme
+            {
+                Type = SecuritySchemeType.ApiKey,
+                Scheme = "bearer",
+                BearerFormat = "JWT",
+                Description = "JWT Authorization header using the Bearer scheme."
+            };
+
+        var securityRequirement =
+            new OpenApiSecurityRequirement
+            {
+                {
+                    new OpenApiSecurityScheme
+                    {
+                        Reference = new OpenApiReference
+                        {
+                            Id = "Bearer",
+                            Type = ReferenceType.Header
+                        }
+                    },
+                    []
+                }
+            };
+
+        document.SecurityRequirements.Add(securityRequirement);
+        document.Components = new OpenApiComponents()
+        {
+            SecuritySchemes = new Dictionary<string, OpenApiSecurityScheme>()
+            {
+                { "Bearer", securitySchema }
+            }
+        };
+        return Task.CompletedTask;
+    }
+}
