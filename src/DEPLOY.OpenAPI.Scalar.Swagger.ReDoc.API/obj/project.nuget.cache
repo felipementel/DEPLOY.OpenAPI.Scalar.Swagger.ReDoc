@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oH1eLYupn5A=",
+  "dgSpecHash": "q2hlMSTorgE=",
   "success": true,
   "projectFilePath": "C:\\Proj\\DEPLOY\\_Mantidos\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc\\src\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj",
   "expectedPackageFiles": [
@@ -16,7 +16,7 @@
     "C:\\Users\\felipe.augusto\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.4\\microsoft.entityframeworkcore.analyzers.9.0.4.nupkg.sha512",
     "C:\\Users\\felipe.augusto\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\9.0.4\\microsoft.entityframeworkcore.inmemory.9.0.4.nupkg.sha512",
     "C:\\Users\\felipe.augusto\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\9.0.4\\microsoft.entityframeworkcore.relational.9.0.4.nupkg.sha512",
-    "C:\\Users\\felipe.augusto\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\felipe.augusto\\.nuget\\packages\\microsoft.extensions.apidescription.server\\9.0.4\\microsoft.extensions.apidescription.server.9.0.4.nupkg.sha512",
     "C:\\Users\\felipe.augusto\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.4\\microsoft.extensions.caching.abstractions.9.0.4.nupkg.sha512",
     "C:\\Users\\felipe.augusto\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.4\\microsoft.extensions.caching.memory.9.0.4.nupkg.sha512",
     "C:\\Users\\felipe.augusto\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.4\\microsoft.extensions.configuration.abstractions.9.0.4.nupkg.sha512",
@@ -33,7 +33,8 @@
     "C:\\Users\\felipe.augusto\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\8.0.1\\microsoft.identitymodel.protocols.openidconnect.8.0.1.nupkg.sha512",
     "C:\\Users\\felipe.augusto\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.0.1\\microsoft.identitymodel.tokens.8.0.1.nupkg.sha512",
     "C:\\Users\\felipe.augusto\\.nuget\\packages\\microsoft.openapi\\1.6.23\\microsoft.openapi.1.6.23.nupkg.sha512",
-    "C:\\Users\\felipe.augusto\\.nuget\\packages\\scalar.aspnetcore\\2.1.17\\scalar.aspnetcore.2.1.17.nupkg.sha512",
+    "C:\\Users\\felipe.augusto\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1-preview.1\\microsoft.visualstudio.azure.containers.tools.targets.1.22.1-preview.1.nupkg.sha512",
+    "C:\\Users\\felipe.augusto\\.nuget\\packages\\scalar.aspnetcore\\2.2.1\\scalar.aspnetcore.2.2.1.nupkg.sha512",
     "C:\\Users\\felipe.augusto\\.nuget\\packages\\swashbuckle.aspnetcore\\8.1.1\\swashbuckle.aspnetcore.8.1.1.nupkg.sha512",
     "C:\\Users\\felipe.augusto\\.nuget\\packages\\swashbuckle.aspnetcore.redoc\\8.1.1\\swashbuckle.aspnetcore.redoc.8.1.1.nupkg.sha512",
     "C:\\Users\\felipe.augusto\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\8.1.1\\swashbuckle.aspnetcore.swagger.8.1.1.nupkg.sha512",

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.7.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.7.0+a8fdc30af62a84bdffd6b000f8a8c6160b345455")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.7.0+00e49ae6a74e7b9128a8d57850b9de3bda3bdf24")]
 [assembly: System.Reflection.AssemblyProductAttribute("DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.7.0.0")]
