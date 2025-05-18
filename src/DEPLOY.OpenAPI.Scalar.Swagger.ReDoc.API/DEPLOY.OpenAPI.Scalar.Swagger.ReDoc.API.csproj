@@ -4,7 +4,10 @@
 		<TargetFramework>net9.0</TargetFramework>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
-		<OpenApiDocumentsDirectory>./canal-deploy/</OpenApiDocumentsDirectory>
+		<OpenApiDocumentsDirectory>open-api</OpenApiDocumentsDirectory>
+		<VersionPrefix>alpha-</VersionPrefix>
+		<Version>0.7.0</Version>
+		<VersionSuffix>-preview.1</VersionSuffix>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -14,7 +17,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Include="Endpoints\v2\AuthorsEndpoint.cs" />
+		<None Include="Endpoints\v2\AuthorsEndpoint.cs" />
 	</ItemGroup>
 
 	<ItemGroup>

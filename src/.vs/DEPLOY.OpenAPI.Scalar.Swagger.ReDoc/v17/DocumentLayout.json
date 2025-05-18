@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Proj\\DEPLOY\\_Mantidos\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc\\src\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{40C45CAE-14CD-4C73-83CB-ED1BB2DEB1F8}|DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj|c:\\proj\\deploy\\_mantidos\\deploy.openapi.scalar.swagger.redoc\\src\\deploy.openapi.scalar.swagger.redoc.api\\deploy.openapi.scalar.swagger.redoc.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{40C45CAE-14CD-4C73-83CB-ED1BB2DEB1F8}|DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj|solutionrelative:deploy.openapi.scalar.swagger.redoc.api\\deploy.openapi.scalar.swagger.redoc.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{40C45CAE-14CD-4C73-83CB-ED1BB2DEB1F8}|DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj|c:\\proj\\deploy\\_mantidos\\deploy.openapi.scalar.swagger.redoc\\src\\deploy.openapi.scalar.swagger.redoc.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40C45CAE-14CD-4C73-83CB-ED1BB2DEB1F8}|DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj|solutionrelative:deploy.openapi.scalar.swagger.redoc.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -38,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +58,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API",
+              "DocumentMoniker": "C:\\Proj\\DEPLOY\\_Mantidos\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc\\src\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj",
+              "RelativeDocumentMoniker": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj",
+              "ToolTip": "C:\\Proj\\DEPLOY\\_Mantidos\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc\\src\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj",
+              "RelativeToolTip": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-18T02:49:34.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AuthorsEndpoint.cs",
               "DocumentMoniker": "C:\\Proj\\DEPLOY\\_Mantidos\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc\\src\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Endpoints\\v2\\AuthorsEndpoint.cs",
               "RelativeDocumentMoniker": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Endpoints\\v2\\AuthorsEndpoint.cs",
@@ -62,12 +79,11 @@
               "RelativeToolTip": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Endpoints\\v2\\AuthorsEndpoint.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAkwAsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T18:39:08.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T18:39:08.705Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API",
               "DocumentMoniker": "C:\\Proj\\DEPLOY\\_Mantidos\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc\\src\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj",
               "RelativeDocumentMoniker": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API.csproj",
@@ -79,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Books.cs",
               "DocumentMoniker": "C:\\Proj\\DEPLOY\\_Mantidos\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc\\src\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Model\\Books.cs",
               "RelativeDocumentMoniker": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Model\\Books.cs",
@@ -87,12 +103,11 @@
               "RelativeToolTip": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Model\\Books.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T19:21:32.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-15T19:21:32.918Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Proj\\DEPLOY\\_Mantidos\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc\\src\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Properties\\launchSettings.json",
@@ -100,12 +115,11 @@
               "RelativeToolTip": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-15T18:59:18.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-15T18:59:18.571Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Author.cs",
               "DocumentMoniker": "C:\\Proj\\DEPLOY\\_Mantidos\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc\\src\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Model\\Author.cs",
               "RelativeDocumentMoniker": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Model\\Author.cs",
@@ -113,12 +127,11 @@
               "RelativeToolTip": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Model\\Author.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T18:31:52.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-15T18:31:52.699Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "DEPLOYContext.cs",
               "DocumentMoniker": "C:\\Proj\\DEPLOY\\_Mantidos\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc\\src\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Database\\DEPLOYContext.cs",
               "RelativeDocumentMoniker": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Database\\DEPLOYContext.cs",
@@ -126,18 +139,17 @@
               "RelativeToolTip": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Database\\DEPLOYContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T18:14:51.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-15T18:14:51.757Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Proj\\DEPLOY\\_Mantidos\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc\\src\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Program.cs",
               "RelativeDocumentMoniker": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Program.cs",
               "ToolTip": "C:\\Proj\\DEPLOY\\_Mantidos\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc\\src\\DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Program.cs",
               "RelativeToolTip": "DEPLOY.OpenAPI.Scalar.Swagger.ReDoc.API\\Program.cs",
-              "ViewState": "AgIAAFECAAAAAAAAAAAAAF0CAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T17:39:17.141Z",
               "EditorCaption": ""
