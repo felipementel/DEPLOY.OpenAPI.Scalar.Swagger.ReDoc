@@ -5,9 +5,9 @@
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<OpenApiDocumentsDirectory>open-api</OpenApiDocumentsDirectory>
-		<VersionPrefix>alpha-</VersionPrefix>
+		<VersionPrefix>alpha</VersionPrefix>
 		<Version>0.7.0</Version>
-		<VersionSuffix>-preview.1</VersionSuffix>
+		<VersionSuffix>preview.1</VersionSuffix>
 	</PropertyGroup>
 
 	<ItemGroup>
