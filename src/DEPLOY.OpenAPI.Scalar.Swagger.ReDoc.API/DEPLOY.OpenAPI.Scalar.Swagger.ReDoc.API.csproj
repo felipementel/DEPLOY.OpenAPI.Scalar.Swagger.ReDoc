@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
 	<PropertyGroup>
-		<TargetFramework>net9.0</TargetFramework>
+		<TargetFramework>net8.0</TargetFramework>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<OpenApiDocumentsDirectory>open-api</OpenApiDocumentsDirectory>
@@ -23,16 +23,16 @@
 
 	<ItemGroup>
 		<PackageReference Include="Asp.Versioning.Mvc.ApiExplorer" Version="8.1.0" />
-		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.6" />
-		<PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="9.0.6" />
-		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.6" />
-		<PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="9.0.6" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.11" />
+		<PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.11" />
+		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.11" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.11" />
 		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.22.1-Preview.1" />
 		<PackageReference Include="Scalar.AspNetCore" Version="2.5.3" />
 		<PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.1" />
 		<PackageReference Include="Swashbuckle.AspNetCore.ReDoc" Version="9.0.1" />
 		<PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="9.0.1" />
-		<PackageReference Include="Microsoft.Extensions.ApiDescription.Server" Version="9.0.6">
+		<PackageReference Include="Microsoft.Extensions.ApiDescription.Server" Version="8.0.11">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
