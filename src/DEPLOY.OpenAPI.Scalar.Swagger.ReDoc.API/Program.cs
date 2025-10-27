@@ -10,7 +10,7 @@ using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-//builder.Services.AddOpenApi(); //first step to add OpenAPI
+//builder.Services.AddOpenApi(); //first step to add OpenAPI - Commented for .NET 8.0 compatibility
 
 builder.Services.AddRouting(opt =>
 {
@@ -18,6 +18,7 @@ builder.Services.AddRouting(opt =>
     opt.LowercaseQueryStrings = true;
 });
 
+/* .NET 8.0 compatibility: Commenting out AddOpenApi configuration
 builder.Services.AddOpenApi("v1", options =>
 {
     options.OpenApiVersion = Microsoft.OpenApi.OpenApiSpecVersion.OpenApi3_0;
@@ -68,7 +69,7 @@ builder.Services.AddOpenApi("v1", options =>
             };
         }
 
-        options.AddDocumentTransformer<OpenApiSecuritySchemeTransformer>();
+        // OpenApiSecuritySchemeTransformer not available in .NET 8.0
 
         return Task.CompletedTask;
     });
@@ -104,6 +105,7 @@ builder.Services.AddOpenApi("v2", options =>
         return Task.CompletedTask;
     });
 });
+*/ // End of .NET 8.0 compatibility comment
 
 builder.Services
     .AddApiVersioning(options =>
@@ -197,7 +199,7 @@ var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi(); //second step to add OpenAPI
+    //app.MapOpenApi(); //second step to add OpenAPI - Commented for .NET 8.0 compatibility
 
     //scalar
     app.MapScalarApiReference(options =>
@@ -578,45 +580,4 @@ app.MapAuthorsEndpointsV2();
 await app.RunAsync();
 
 
-public class OpenApiSecuritySchemeTransformer
-    : IOpenApiDocumentTransformer
-{
-    public Task TransformAsync(OpenApiDocument document, OpenApiDocumentTransformerContext context,
-        CancellationToken cancellationToken)
-    {
-        var securitySchema =
-            new OpenApiSecurityScheme
-            {
-                Type = SecuritySchemeType.ApiKey,
-                Scheme = "bearer",
-                BearerFormat = "JWT",
-                Description = "JWT Authorization header using the Bearer scheme."
-            };
-
-        var securityRequirement =
-            new OpenApiSecurityRequirement
-            {
-                {
-                    new OpenApiSecurityScheme
-                    {
-                        Reference = new OpenApiReference
-                        {
-                            Id = "Bearer",
-                            Type = ReferenceType.Header
-                        }
-                    },
-                    []
-                }
-            };
-
-        document.SecurityRequirements.Add(securityRequirement);
-        document.Components = new OpenApiComponents()
-        {
-            SecuritySchemes = new Dictionary<string, OpenApiSecurityScheme>()
-            {
-                { "Bearer", securitySchema }
-            }
-        };
-        return Task.CompletedTask;
-    }
-}
+// OpenApiSecuritySchemeTransformer class removed for .NET 8.0 compatibility
